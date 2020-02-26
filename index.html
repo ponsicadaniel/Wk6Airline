@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Dan-Air_logo.svg/1200px-Dan-Air_logo.svg.png" class="center" width=20%;>
+        <h3 align="left" style="font-family: Helvetica; font-weight: 500; color:#244ba6; font-size: 20px; margin-left:45px">ONLINE BOOKING</h3>
+<!--        <h5 align="center">(Author: Daniel Luis Ponsica, 1BSCS UPMIN)</h5>-->
+        
+                <p style="margin:0px 0px 10px 0px; padding:0px; background-color:#244ba6; font-family: Helvetica; font-weight: 600; color:white; font-size: 20px">GUEST INFORMATION</p>
+
+               
+                    <input type="text" placeholder="Surname/Last Name" id="lname" style="margin-right: 10px">
+                    <input type="text" placeholder="First Name" id="fname" style="margin-right: 10px">
+                    <select selected="Gender" style="margin-right: 10px" id="gender">
+                            <option value="X">Gender</option>
+                            <option value="M">Male</option>
+                            <option value="F">Female</option>
+                        </select>
+            
+                <br>
+                <input type="text" placeholder="Email Address" id="email" style="margin: 10px 10px 10px 0">
+            
+                <p style="margin:0px 0px 10px 0px; padding:0px; background-color:#244ba6; font-family: Helvetica; font-weight: 600; color:white; font-size: 20px">FLIGHT DETAILS</p>
+            
+                    <input type="text" placeholder="Origin" id="origin" style="margin-right: 10px">
+                    <input type="text" placeholder="Destination" id="destination" style="margin-right: 10px">
+                    <br>
+                    <p style="font-family: Helvetica; margin: 10px 0px 0px 0px">Departure Date: <input type="date" id="departure" style="margin: 0px 0px 0px 0"></p>
+                    <p style="font-family: Helvetica; margin: 10px 0px 0px 0px">Return Date: <input type="date" id="return" style="margin: 0px 0px 0px 0px"></p>
+                    
+            
+            <br><br><br>
+            <input type="button" onclick="submit()" value="Submit">
+            
+            <h4 id="display"></h4>
+               
+        
+<script src="Ponsica_Airline.js"></script>
+        
+    </body>
+</html>
